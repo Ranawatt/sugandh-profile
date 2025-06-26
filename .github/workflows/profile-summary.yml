@@ -16,7 +16,7 @@ jobs:
       
     steps:
       - uses: actions/checkout@v2
-      - uses: Ranawatt/sugandh-profile@release
+      - uses: Ranawatt/sugandh-profile
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:

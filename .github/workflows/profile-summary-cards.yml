@@ -16,7 +16,7 @@ jobs:
       
     steps:
       - uses: actions/checkout@v2
-      - uses: Ranawatt/profile-summary-cards@release
+      - uses: Ranawatt/sugandh-profile
         env:
           GITHUB_TOKEN: ${{ secrets.summary_card_token }}
         with:
